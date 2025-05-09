@@ -44,5 +44,35 @@ int main() {
         contadorRainha++;
     } while (contadorRainha <= 8);
 
+    printf("\n"); // Espaço entre movimentos
+
+    // =========================
+    // Movimento do CAVALO (For + While Aninhando)
+    // =========================
+    // O Cavalo se move 2 casas para baixo e 1 para a esquerda
+    // Será utilizado um loop for externo e um while interno
+    printf("Movimento do Cavalo (2 casas para Baixo e 1 para a Esquerda):\n");
+
+    const int movimentosBaixo = 2;
+    const int movimentosEsquerda = 1;
+
+    for (int passo = 1; passo <= movimentosBaixo; passo++) {
+        printf ("Baixo\n");
+
+        // Loop interno será executado somente após os dois passos para baixo
+        if (passo == movimentosBaixo) {
+            int contador = 1;
+            while (contador <= movimentosEsquerda) {
+                printf("Esquerda\n");
+                contador++;
+            }
+        }
+
+
+
+
+    }
+
+
     return 0;
 }
