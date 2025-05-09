@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * Programa: Simulação de movimentos de peças de xadrez
- * Peças: Torre (for), Bispo (while), Rainha (do-while)
- * Autor: [Seu Nome]
+ * Programa: Simulando Movimentos de peças de xadrez
+ * Peças: Torre (For), Bispo (While), Rainha (Do-While)
+ * Autor: [William Carvalho]
  */
 
 int main() {
