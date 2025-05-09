@@ -2,7 +2,7 @@
 
 /*
  * Programa: Simulando Movimentos de peças de xadrez
- * Peças: Torre (For), Bispo (While), Rainha (Do-While)
+ * Peças: Torre (For), Bispo (While), Rainha (Do-While), Cavalo (For + While aninhado)
  * Autor: [William Carvalho]
  */
 
